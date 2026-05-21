@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-red?style=flat-square)
-![Gemini](https://img.shields.io/badge/Google-Gemini%20AI-orange?style=flat-square)
+![Groq](https://img.shields.io/badge/Groq-LLaMA%203.3-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-POC%20Complete-brightgreen?style=flat-square)
 
 ---
@@ -74,7 +74,7 @@ Download Button / Refinement Loop
 |---|---|---|
 | Language | Python 3.11 | Fast to build and iterate |
 | UI Framework | Streamlit | Professional UI with zero frontend code |
-| AI Model | Google Gemini 2.0 Flash | Free tier, fast, high quality output |
+| AI Model | Groq — LLaMA 3.3 70B | Free tier, extremely fast inference, high quality output |
 | PDF Export | ReportLab | Pure Python PDF generation |
 | Config | python-dotenv | Secure API key management |
 
@@ -104,9 +104,9 @@ pip install -r requirements.txt
 
 Create a `.env` file in the root folder:
 ```
-GEMINI_API_KEY=your_gemini_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
 ```
-Get a free key at: https://aistudio.google.com
+Get a free key at: https://console.groq.com
 
 **5. Run the app**
 ```bash
@@ -176,4 +176,4 @@ Built as a rapid POC prototype to demonstrate AI-assisted business workflow auto
 
 ---
 
-*SOPilot — Built with Google Gemini AI + Streamlit*
+*SOPilot — Built with Groq LLaMA 3.3 + Streamlit*
